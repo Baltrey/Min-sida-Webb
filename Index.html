@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Baltazar Biverstål</h1>
+    </header>
+    <style>
+        @keyframes spinning {
+            from {
+                transform: rotateY(0deg)
+            }
+
+            to {
+                transform: rotateY(360deg)
+            }
+        }
+
+        .spin {
+            animation-name: spinning;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            /* linear | ease | ease-in | ease-out | ease-in-out */
+            animation-timing-function: linear;
+        }
+    </style>
+    <main>
+        <img src="Roxy.png" class="spin" />
+        <img src="" alt="">
+        <img src="Baltreypog.jpg" alt="Baltreypog">
+        <img src="" alt="">
+        <img src="Roxy.png" class="spin" />
+
+    </main>
+</body>
+
+
+</html>
