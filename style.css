@@ -1,14 +1,29 @@
 h1 {
     text-align: center;
-    color: blue font-size: 32px;
+    color: white;
+    background-color: black;
+}
+
+h2 {
+    text-align: center;
+    color: white;
 }
 
 body {
     height: 100vh;
     width: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 9fr;
+    background-color: blue;
 }
 
 main {
     display: grid;
     grid-template-columns: 2fr 5fr 2fr;
+}
+
+a {
+    color: black;
+    text-align: center;
+    background-color: white;
 }
